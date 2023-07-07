@@ -1,4 +1,5 @@
 <script setup>
+
   // setup 是一个开关 容许在script书写组合式API
   //导入
   //import { reactive, ref, computed } from 'vue'
@@ -12,9 +13,15 @@
 <template>
   <!-- 准备一个一级路由出口组件 -->
   <router-view></router-view>
+  <div class="test">
+    test scss
+  </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.test {
+  color: $warnColor;
+}
 /* scoped 使用得定义的样式只在本页面内生效  */
 
 </style>

@@ -1,18 +1,18 @@
 <script setup>
-  // setup 是一个开关 容许在script书写组合式API
-  //导入
-  //import { reactive, ref, computed } from 'vue'
-
-  // 传入一个对象类型的参数 变量接收。reactive里的对象数据就变成响应式的数据了
-  //const state = reactive({对象类型数据})
+import LayoutNav from './components/LayoutNav.vue'
+import LayoutHeader from './components/LayoutHeader.vue'
+import LayoutFooter from './components/LayoutFooter.vue'
 
 
 </script>
 
 <template>
-  <header>我是首页</header>
+
   <!-- 二级路由出口 -->
-<RouterView></RouterView>
+  <LayoutNav />
+  <LayoutHeader />
+  <RouterView />
+  <LayoutFooter />
 </template>
 
 <style scoped>
