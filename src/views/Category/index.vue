@@ -10,8 +10,11 @@
 </script>
 
 <template>
-  <!-- 准备一个一级路由出口组件 -->
-  <router-view></router-view>
+  <header>
+    我是分类
+  </header>
+  <main></main>
+  <footer></footer>
 </template>
 
 <style scoped>

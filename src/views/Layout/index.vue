@@ -10,8 +10,9 @@
 </script>
 
 <template>
-  <!-- 准备一个一级路由出口组件 -->
-  <router-view></router-view>
+  <header>我是首页</header>
+  <!-- 二级路由出口 -->
+<RouterView></RouterView>
 </template>
 
 <style scoped>
